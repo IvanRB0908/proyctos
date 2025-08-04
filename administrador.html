@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MTUTTEC</title>
+<link href="../css_Administrador/administradorcss.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+<div class="container">
+
+  <div class="sidebar">
+    <div class="logo">
+      <button class="toggle-btn">&#9776;</button>
+      <h1>MTUTTEC</h1>
+    </div>
+    <div class="menu">
+      <ul>
+        
+          <li><a href="../CerrarSesion"><h3>Cerrar Sesion</h3></a></li><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <a href="https://www.google.com.mx/"><i class="fas fa-power-off"></i><span>Salir</span></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="header">
+      <h1>Panel De Administrador</h1>
+      <p>Bienvenido, Administrador</p> </div>
+
+    <div class="dashboard-cards">
+      <div class="card">
+        <h2>Mantenimiento</h2>
+        <a href="Mantenimiento.html"><button><img src="../imagenes/image-Photoroom (2).png"> <a href="../interfaces/"></a> </button></a>
+        <br><br><br>
+        <p>Acceso a interfaz de el area de mantenimiento</p>
+      </div>
+      <div class="card">
+        <h2>Secretaria</h2>
+        <a href="Secretaria.html"><button><img src="../imagenes/image-Photoroom.png" <a href="../interfaces/"></a> </button></a>
+        <br><br>
+        <div>
+          <p> acceso a la interfaz de secretaria</p>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Chofer</h2>
+        <a href="chofer.html"><button><img src="../imagenes/image-Photoroom (1).png" <a href="../interfaces/"></a> </button> </a>
+        <br><br>
+        <p>Acceso a interfaz de el area de choferes</p>
+      </div>
+    </div>
+
+    <button class="boton-input"><input type="button" value="input"></button>
+  </div>
+
+</div>
+
+<script>
+  const toggleBtn = document.querySelector('.toggle-btn');
+  const sidebar = document.querySelector('.sidebar');
+  const content = document.querySelector('.content');
+
+  toggleBtn.addEventListener('click', () => {
+    sidebar.classList.toggle('collapsed');
+    content.classList.toggle('expanded');
+  });
+</script>
+
+</body>
+</html>
