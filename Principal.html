@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movilidad y Transporte UTTEC</title>
+    <link rel="stylesheet" href="style.css">
+        <link href="../css2/estilo1.css" rel="stylesheet" type="text/css"/>
+               <link rel="icon" href="../imagenes/WhatsApp Image 2025-02-25 at 9.04.11 PM.jpeg" />
+</head>
+<style>
+    img{
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+    }
+    
+    
+</style>
+<body>
+    <div class="container">
+        <aside class="sidebar" id="sidebar">
+            <div class="logo">
+                <h1>MTUTTEC</h1>
+                <button class="toggle-btn" onclick="toggleSidebar()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            
+            <nav class="menu">
+                <ul>
+                    <li><a href="../index.html"><i class="fas fa-home"></i><span>Inicio</span></a></li>
+                    <li><a href="acercade.html"><i class="fas fa-info-circle"></i><span>Acerca de</span></a></li>
+                    <li><a href="../Login/LoginMantenimiento.html"><i class="fas fa-tools"></i><span>Mantenimiento</span></a></li>
+                    <li><a href="../Login/LoginAdmin.html"><i class="fas fa-sign-out-alt"></i><span>Administrador</span></a></li>
+                    <li><a href="../Login/LoginSecretaria.html"><i class="fas fa-sign-out-alt"></i><span>Secretario(a)</span></a></li>
+                    <li><a href="../Login/LoginChofer.html"><i class="fas fa-calendar-check"></i><span>Chofer</span></a></li>
+                   
+                    <li class="logout">   
+                        <a href="../CerrarSesion"><i class="fas fa-power-off"></i><span>Cerrar Sesión</span></a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="content" id="mainContent">
+            <div class="header">
+                <h2>Panel Principal</h2>
+                <div class="user-info">
+                    <span>Bienvenido, Usuario</span>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </div>
+            
+            <div class="dashboard-cards">
+                <div class="card">
+                    <h3><i class="fas fa-chart-line"></i> Vehiculos Disponibles</h3>
+                    <p>Listado de vehiculos disponibles</p>
+                    <a href="url"> <img src="../imagenes/sedan.png" alt="alt" /></a>
+                    <div class="progress" style="color: #db4437">Disponible</div>
+                </div>
+                
+                <div class="card">
+                    <h3><i class="fas fa-bell"></i> Choferes Disponibles</h3>
+                    <p>Listado de vehiculos disponibles</p>
+                    <a href="url"> <img src="../imagenes/driver.png" alt="alt" /></a>
+                    <div class="progress" style="color: #db4437">Disponible</div>
+                </div>
+                
+                <div class="card">
+                    <h3><i class="fas fa-calendar-alt"></i> Noticias</h3>
+                    <div class="calendar-event">
+                        <div class="event-date">15 JUL</div>
+                        <div class="event-info">
+                            <strong>Vehiculos en Mantenimiento</strong>
+                            <span>10:00 AM - 4:00 PM</span>
+                            <br>
+                            <strong>Cerrado</strong>
+                            <span>Sabado - Domingo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+  
+</body>
+</html>

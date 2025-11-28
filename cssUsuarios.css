@@ -1,0 +1,242 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Título del formulario */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Estilos del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;  /* Limitar el tamaño del formulario */
+    margin: 0 auto;
+}
+
+/* Estilos de las etiquetas */
+label {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Estilos de los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+/* Estilos para los campos de texto */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    background-color: #f9f9f9;
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto de hover sobre el botón */
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Espaciado entre los campos del formulario */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="submit"] {
+    margin-bottom: 15px;
+}
+
+/* Estilo de los enlaces */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de los mensajes de error o éxito */
+.message {
+    font-size: 16px;
+    color: #fff;
+    background-color: #ff4d4d;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.message.success {
+    background-color: #4CAF50;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;  /* Color suave de fondo */
+    color: #343a40;  /* Color de texto oscuro */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Título de la página */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 80%;  /* Reducir el tamaño de la tabla */
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 10px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;  /* Línea divisoria suave */
+}
+
+table th {
+    font-weight: bold;
+    font-size: 14px;  /* Reducir el tamaño de las celdas */
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;  /* Color de fila al pasar el mouse */
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;  /* Fila alterna con color de fondo más suave */
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+/* Botones de acción (Editar y Eliminar) */
+button {
+    padding: 6px 10px;  /* Reducir tamaño de los botones */
+    font-size: 12px;  /* Reducir tamaño de la fuente */
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Botón para editar */
+button.edit {
+    background-color: #ffc107;  /* Amarillo */
+    color: white;
+}
+
+button.edit:hover {
+    background-color: #e0a800;
+}
+
+/* Botón para eliminar */
+button.delete {
+    background-color: #dc3545;  /* Rojo */
+    color: white;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Botón para actualizar */
+button.update {
+    background-color: #28a745;  /* Verde */
+    color: white;
+}
+
+button.update:hover {
+    background-color: #218838;
+}
+
+/* Efecto de hover sobre los botones */
+button:hover {
+    opacity: 0.9;
+}
+
+/* Espaciado entre los botones */
+button + button {
+    margin-left: 10px;
+}
+
+/* Estilo del mensaje de "sin registros" */
+.no-records {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Enlace de acción */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    text-decoration: underline;
+}

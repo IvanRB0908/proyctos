@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../imagenes/WhatsApp Image 2025-02-25 at 9.04.11 PM.jpeg" />
+    <title>Movilidad y transporte UTTEC</title>
+    <link href="../css/estilo1.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/estilo2.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/estilo3.css" rel="stylesheet" type="text/css"/>
+    <link href="../css/estilo4.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <form action="../alta" method="post">  <div class="form-container sign-up">
+            </div>
+            <h1>Registro</h1>
+            
+            <span>Ingresa tus datos</span>
+            <input type="hidden" name="id_usuario" value=" <%= usuario.getId_usuario() %>">
+            <input type="text" name="nombre" placeholder="Nombre" required ><br>  
+            <input type="text" name="usuario" placeholder="Nombre de usuario" required><br> 
+            <input type="email" name="correo" placeholder="Correo" required><br>  
+            <input type="number" name="matricula" placeholder="Matricula" required><br> 
+            <input type="text" name="clave" placeholder="Contraseña" required><br> 
+            <button type="submit" >Registrarse</button>
+            
+        </form>
+    </div>
+</body>
+</html>
